@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/* Elementos base*/
+body {
+    background: black;
+    color: #fff;
+}
+
+header .logo {
+    margin: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(126, 125, 125);
+    margin-right: 10px;
+}
+
+.menu {
+    margin-right: 30px;
+}
+
+header nav a:houver{
+    color: #fff
+}
+
+/* Filme principal*/
+
+.container {
+    margin-left: 40px;
+   
+    
+}
+.filme-principal .container {
+    width: 60%;
+}
+
+.filme-principal {
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)100%), url(../img/capa\ black\ clover.jpg);
+    
+
+    height: 600px;;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal p {  
+    width: 700px; 
+    margin-bottom: 20px;   
+       
+}
+
+.filme-principal h2 {
+    font-size: 50px;    
+   margin-top: 15%;
+}
+
+.btn {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 16px;   
+    
+    cursor: pointer;
+    transition: 3s ease all;
+
+}
+
+.btn:houver {
+   background-color: #fff;
+    color: black;
+    
+}
+*
+.btn em{
+    margin-right: 5px;
+}
+
+.box-filme {
+   width: 100%;
+   height: 100%;
+   display: block;
+   
+}
+
+
